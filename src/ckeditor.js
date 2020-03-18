@@ -123,13 +123,6 @@ ClassicEditor.defaultConfig = {
 				type: "marker"
 			},
 			{
-				model: "bluePen",
-				class: "pen-blue",
-				title: "Blue pen",
-				color: "var(--ck-highlight-marker-blue)",
-				type: "pen"
-			},
-			{
 				model: "redPen",
 				class: "pen-red",
 				title: "Red pen",
@@ -141,6 +134,13 @@ ClassicEditor.defaultConfig = {
 				class: "pen-green",
 				title: "Green pen",
 				color: "var(--ck-highlight-pen-green)",
+				type: "pen"
+			},
+			{
+				model: "bluePen",
+				class: "pen-blue",
+				title: "Blue pen",
+				color: "blue",
 				type: "pen"
 			}
 		]
