@@ -137,10 +137,10 @@ ClassicEditor.defaultConfig = {
 				type: "pen"
 			},
 			{
-				model: "bluePen",
+				model: "blueMarker",
 				class: "pen-blue",
 				title: "Blue pen",
-				color: "blue",
+				color: "var(--ck-highlight-marker-blue)",
 				type: "pen"
 			}
 		]
