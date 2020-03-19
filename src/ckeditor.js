@@ -4,18 +4,18 @@
  */
 
 // The editor creator to use.
-import ClassicEditorBase from "@ckeditor/ckeditor5-editor-classic/src/classiceditor";
-import Essentials from "@ckeditor/ckeditor5-essentials/src/essentials";
-import Autoformat from "@ckeditor/ckeditor5-autoformat/src/autoformat";
-import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold";
-import Italic from "@ckeditor/ckeditor5-basic-styles/src/italic";
-import BlockQuote from "@ckeditor/ckeditor5-block-quote/src/blockquote";
-import CKFinder from "@ckeditor/ckeditor5-ckfinder/src/ckfinder";
-import Heading from "@ckeditor/ckeditor5-heading/src/heading";
-import List from "@ckeditor/ckeditor5-list/src/list";
-import Paragraph from "@ckeditor/ckeditor5-paragraph/src/paragraph";
-import Highlight from "@ckeditor/ckeditor5-highlight/src/highlight";
-import Indent from "@ckeditor/ckeditor5-indent/src/indent";
+import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
+import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
+import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
+import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
+import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import List from '@ckeditor/ckeditor5-list/src/list';
+import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 
 // import PasteFromOffice from "@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice";
 // import Table from "@ckeditor/ckeditor5-table/src/table";
@@ -63,20 +63,20 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			"heading",
-			"|",
-			"bold",
-			"italic",
-			"bulletedList",
-			"numberedList",
-			"|",
-			"indent",
-			"outdent",
-			"|",
-			"highlight",
-			"blockQuote",
-			"undo",
-			"redo"
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'bulletedList',
+			'numberedList',
+			'|',
+			'indent',
+			'outdent',
+			'|',
+			'highlight',
+			'blockQuote',
+			'undo',
+			'redo'
 		]
 	},
 	// image: {
@@ -91,57 +91,57 @@ ClassicEditor.defaultConfig = {
 	// 	contentToolbar: ["tableColumn", "tableRow", "mergeTableCells"]
 	// },
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: "en",
+	language: 'en',
 	highlight: {
 		options: [
 			{
-				model: "yellowMarker",
-				class: "marker-yellow",
-				title: "Yellow Marker",
-				color: "var(--ck-highlight-marker-yellow)",
-				type: "marker"
+				model: 'yellowMarker',
+				class: 'marker-yellow',
+				title: 'Yellow Marker',
+				color: 'var(--ck-highlight-marker-yellow)',
+				type: 'marker'
 			},
 			{
-				model: "greenMarker",
-				class: "marker-green",
-				title: "Green marker",
-				color: "var(--ck-highlight-marker-green)",
-				type: "marker"
+				model: 'greenMarker',
+				class: 'marker-green',
+				title: 'Green marker',
+				color: 'var(--ck-highlight-marker-green)',
+				type: 'marker'
 			},
 			{
-				model: "pinkMarker",
-				class: "marker-pink",
-				title: "Pink marker",
-				color: "var(--ck-highlight-marker-pink)",
-				type: "marker"
+				model: 'pinkMarker',
+				class: 'marker-pink',
+				title: 'Pink marker',
+				color: 'var(--ck-highlight-marker-pink)',
+				type: 'marker'
 			},
 			{
-				model: "blueMarker",
-				class: "marker-blue",
-				title: "Blue marker",
-				color: "var(--ck-highlight-marker-blue)",
-				type: "marker"
+				model: 'blueMarker',
+				class: 'marker-blue',
+				title: 'Blue marker',
+				color: 'var(--ck-highlight-marker-blue)',
+				type: 'marker'
 			},
 			{
-				model: "redPen",
-				class: "pen-red",
-				title: "Red pen",
-				color: "var(--ck-highlight-pen-red)",
-				type: "pen"
+				model: 'redPen',
+				class: 'pen-red',
+				title: 'Red pen',
+				color: 'var(--ck-highlight-pen-red)',
+				type: 'pen'
 			},
 			{
-				model: "greenPen",
-				class: "pen-green",
-				title: "Green pen",
-				color: "var(--ck-highlight-pen-green)",
-				type: "pen"
+				model: 'greenPen',
+				class: 'pen-green',
+				title: 'Green pen',
+				color: 'var(--ck-highlight-pen-green)',
+				type: 'pen'
 			},
 			{
-				model: "blueMarker",
-				class: "pen-blue",
-				title: "Blue pen",
-				color: "blue",
-				type: "pen"
+				model: 'bluePen',
+				class: 'pen-blue',
+				title: 'Blue pen',
+				color: 'blue',
+				type: 'pen'
 			}
 		]
 	}
